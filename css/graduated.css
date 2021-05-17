@@ -88,6 +88,9 @@
 .image {
   margin-right: 30px;
 }
+.image-active {
+  padding-top: 10px;
+}
 .images {
   padding-bottom: 73px;
 }
@@ -109,7 +112,6 @@
 .image-caption {
   text-align: center;
   font-size: 21px;
-  max-width: 170px;
   margin: auto;
   font: normal normal 300 20px/30px Poppins;
   padding-top: 18px;
@@ -119,6 +121,5 @@
   text-align: center;
   color: #006b6e;
   font-size: 21px;
-  max-width: 192px;
   margin: auto;
 }
