@@ -1,0 +1,28 @@
+.menu ul {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 23px;
+  padding-right: 24px;
+  border-right: 1px solid #006b6e57;
+}
+.menu li a {
+  text-decoration: none;
+  color: #006b6e;
+}
+.menu li:last-child {
+  border: none;
+}
+.menu {
+  padding-top: 38px;
+}
+
+.content-active {
+  border-bottom: 1px solid #006b6e;
+}
+
+.logo {
+  padding-top: 24px;
+}
