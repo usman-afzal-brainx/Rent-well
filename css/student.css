@@ -40,9 +40,13 @@
 }
 .key-description {
   padding-top: 64px;
+  padding-left: 50px;
 }
 .key-picture > img {
   width: 100%;
   max-width: 551px;
   float: right;
+}
+.key-picture {
+  padding-top: 30px;
 }
