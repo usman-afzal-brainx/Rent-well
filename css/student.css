@@ -88,3 +88,31 @@
 .image {
   margin-right: 30px;
 }
+
+.container-fluid {
+  background: url("../graduated-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-caption {
+  text-align: center;
+  font-size: 21px;
+  margin: auto;
+  font: normal normal 300 20px/30px Poppins;
+  padding-top: 18px;
+}
+.image-caption-active {
+  padding-top: 18px;
+  text-align: center;
+  color: #006b6e;
+  font-size: 21px;
+  margin: auto;
+}
+.bottom-buildings {
+  background-image: url(../bottom-buildings.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
