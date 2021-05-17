@@ -88,3 +88,37 @@
 .image {
   margin-right: 30px;
 }
+.images {
+  padding-bottom: 73px;
+}
+.button button {
+  border-radius: 35px;
+  padding: 12px 24px;
+  color: #006b6e;
+  text-align: center;
+  background: #c3ecff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 6px #00000029;
+  border: 1px solid #006b6e;
+}
+.container-fluid {
+  background: url("../graduated-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-caption {
+  text-align: center;
+  font-size: 21px;
+  max-width: 170px;
+  margin: auto;
+  font: normal normal 300 20px/30px Poppins;
+  padding-top: 18px;
+}
+.image-caption-active {
+  padding-top: 18px;
+  text-align: center;
+  color: #006b6e;
+  font-size: 21px;
+  max-width: 192px;
+  margin: auto;
+}
