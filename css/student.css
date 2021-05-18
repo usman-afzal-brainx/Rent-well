@@ -86,11 +86,11 @@
   display: inline-block;
 }
 .image {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .container-fluid {
-  background: url("../graduated-background.png");
+  background: url("../assets/graduated-background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,9 +110,9 @@
   margin: auto;
 }
 .bottom-buildings {
-  background-image: url(../bottom-buildings.png);
+  background-image: url(../assets/bottom-buildings.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 195px;
 }
