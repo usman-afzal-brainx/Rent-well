@@ -35,6 +35,7 @@
 
 .key-details {
   color: #e6e8e9;
+  max-width: 460px;
 }
 .key-details p {
   font: normal normal 300 20px/30px Poppins;
