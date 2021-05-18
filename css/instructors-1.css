@@ -88,9 +88,7 @@
 .image {
   margin-right: 30px;
 }
-.image-active {
-  padding-top: 10px;
-}
+
 .images {
   padding-bottom: 191px;
   text-align: center;
@@ -103,11 +101,13 @@
   background-size: 100% 100%;
 }
 .image-caption {
-  text-align: center;
   font-size: 21px;
   margin: auto;
-  font: normal normal 300 20px/30px Poppins;
-  padding-top: 18px;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  max-width: 144px;
+  margin-top: -55px;
 }
 .image-caption-active {
   padding-top: 18px;
@@ -115,4 +115,5 @@
   color: #006b6e;
   font-size: 21px;
   margin: auto;
+  max-width: 194px;
 }

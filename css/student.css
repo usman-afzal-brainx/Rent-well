@@ -86,17 +86,16 @@
 .image-active {
   display: inline-block;
 }
-.image {
-  margin-left: 30px;
-}
+
 .images {
   text-align: center;
+  padding-bottom: 262px;
 }
 .container-fluid {
-  background: url("../assets/graduated-background.png");
+  background: url("../assets/background-student.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .image-caption {
   text-align: center;
@@ -114,10 +113,8 @@
   margin: auto;
   max-width: 178px;
 }
-.bottom-buildings {
-  background-image: url(../assets/bottom-buildings.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 195px;
+@media screen and (max-width: 600px) {
+  .container-fluid {
+    background-image: url(../assets/background-student-mobile.png);
+  }
 }
