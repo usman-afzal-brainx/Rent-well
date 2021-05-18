@@ -122,7 +122,15 @@
   margin: auto;
   max-width: 178px;
 }
-
+.button button {
+  border-radius: 35px;
+  padding: 12px 24px;
+  color: #006b6e;
+  text-align: center;
+  background: #c3ecff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 6px #00000029;
+  border: 1px solid #006b6e;
+}
 @media screen and (max-width: 1190px) {
   .key-heading {
     font: normal normal bold 45px Poppins;
