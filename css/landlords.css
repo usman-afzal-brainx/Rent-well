@@ -1,0 +1,133 @@
+.menu ul {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 23px;
+  padding-right: 24px;
+  border-right: 1px solid #006b6e57;
+}
+.menu li a {
+  text-decoration: none;
+  font: normal normal normal 15px/23px Poppins;
+  color: #ffffff;
+}
+.menu li:last-child {
+  border: none;
+}
+.menu {
+  padding-top: 38px;
+}
+
+.content-active {
+  border-bottom: 1px solid #ffffff;
+}
+
+.logo {
+  padding-top: 24px;
+}
+
+.key-heading {
+  font: normal normal bold 71px/86px Poppins;
+  color: #ffffff;
+}
+
+.key-details {
+  color: #e6e8e9;
+}
+.key-details p {
+  font: normal normal 300 20px/30px Poppins;
+}
+.key-description {
+  padding-top: 64px;
+  padding-left: 50px;
+}
+.key-picture > img {
+  width: 100%;
+  max-width: 551px;
+  float: right;
+}
+.key-picture {
+  padding-top: 30px;
+}
+
+.mid-arrow {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  padding-top: 10px;
+}
+.heading {
+  font: normal normal bold 45px/68px Poppins;
+  color: #006b6e;
+  max-width: 572px;
+  margin: auto;
+}
+.details {
+  font: normal normal 300 20px/30px Poppins;
+  color: #575b5c;
+  max-width: 931px;
+  margin: auto;
+  color: #ffffff;
+  position: relative;
+}
+.details p {
+  margin: 30px 0;
+}
+.details-row {
+  background: #099aaf 0% 0% no-repeat padding-box;
+  text-align: center;
+}
+.collapse-arrow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -50px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  max-width: 238px;
+}
+.image-active img {
+  width: 100%;
+  height: auto;
+  max-width: 355px;
+}
+.image,
+.image-active {
+  display: inline-block;
+}
+.image {
+  margin-right: 30px;
+}
+.image-active {
+  padding-top: 10px;
+}
+.images {
+  padding-bottom: 73px;
+}
+
+.container-fluid {
+  background: url("../assets/green-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-caption {
+  text-align: center;
+  font-size: 21px;
+  margin: auto;
+  font: normal normal 300 20px/30px Poppins;
+  padding-top: 18px;
+}
+.image-caption-active {
+  padding-top: 18px;
+  text-align: center;
+  color: #006b6e;
+  font-size: 21px;
+  margin: auto;
+}
