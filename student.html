@@ -10,7 +10,12 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./css/student.css" />
+    <script defer src="./scripts/navbar.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -21,9 +26,12 @@
           <div class="logo">
             <img src="./assets/logo-png.png" alt="" />
           </div>
+          <a href="javascript:void(0);" class="icon-2" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
         <div class="col-sm-6">
-          <div class="menu">
+          <div class="menu" id="navbar">
             <ul>
               <li>
                 <span class="content-active"><a href="">Students</a></span>
@@ -39,6 +47,9 @@
               </li>
             </ul>
           </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
       </div>
 
@@ -97,9 +108,10 @@
             <div class="row">
               <div class="col-sm-3">
                 <div class="image-active">
-                  <div class="image-logo">
+                  <div class="image-logo-1">
                     <img src="./assets/rentwell-tenant-education.png" alt="" />
                   </div>
+
                   <div class="image-caption-active">
                     <p>Rent Well<sup>@</sup> Tenant Education</p>
                   </div>

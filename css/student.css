@@ -19,6 +19,13 @@
   padding-top: 38px;
   text-align: center;
 }
+.icon {
+  display: none;
+  float: right;
+}
+.icon-2 {
+  display: none;
+}
 
 .content-active {
   border-bottom: 1px solid #006b6e;
@@ -26,6 +33,7 @@
 
 .logo {
   padding-top: 24px;
+  display: inline-block;
 }
 
 .key-heading {
@@ -81,8 +89,8 @@
 .image-active img {
   width: 100%;
   height: auto;
-  max-width: 355px;
 }
+
 .image,
 .image-active {
   display: inline-block;
@@ -114,6 +122,37 @@
   margin: auto;
   max-width: 178px;
 }
+
+@media screen and (max-width: 1190px) {
+  .key-heading {
+    font: normal normal bold 45px Poppins;
+    max-width: 265px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .details {
+    font-size: 18px;
+  }
+  .key-details {
+    font-size: 18px;
+  }
+  .key-picture > img {
+    width: 100%;
+    max-width: 380px;
+    float: right;
+  }
+}
+@media screen and (max-width: 1099px) {
+  .icon {
+    display: block;
+    float: right;
+  }
+  .menu ul {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .container-fluid {
     background-image: url(../assets/background-student-mobile.png);
@@ -131,6 +170,7 @@
     width: 100%;
     max-width: 266px;
     float: right;
+    padding-top: 23px;
   }
   .heading {
     font: normal normal bold 25px/38px Poppins;
@@ -149,24 +189,18 @@
   .image-active {
     max-width: 180px;
   }
+  .logo img {
+    max-width: 106px;
+  }
 }
-@media screen and (max-width: 1130px) {
-  .key-heading {
-    font: normal normal bold 45px Poppins;
-    max-width: 265px;
-  }
-  .heading {
-    font-size: 30px;
-  }
-  .details {
-    font-size: 18px;
-  }
-  .key-details {
-    font-size: 18px;
-  }
-  .key-picture > img {
-    width: 100%;
-    max-width: 380px;
+@media screen and (max-width: 575px) {
+  .icon {
+    display: none;
     float: right;
+  }
+  .icon-2 {
+    display: inline-block;
+    float: right;
+    padding-top: 27px;
   }
 }
