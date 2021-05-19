@@ -2,29 +2,22 @@
   list-style-type: none;
 }
 
-.menu li {
+.navbar-nav li {
   display: inline;
   margin-right: 23px;
   padding-right: 24px;
   border-right: 1px solid #006b6e57;
 }
-.menu li a {
+.navbar-nav li a {
   text-decoration: none;
-  color: #006b6e;
+  color: #006b6e !important;
 }
-.menu li:last-child {
+.navbar-nav li:last-child {
   border: none;
 }
-.menu {
+.navbar-nav {
   padding-top: 38px;
   text-align: center;
-}
-.icon {
-  display: none;
-  float: right;
-}
-.icon-2 {
-  display: none;
 }
 
 .content-active {
@@ -104,7 +97,7 @@
   background: url("../assets/background-student.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .image-caption {
   text-align: center;
@@ -150,6 +143,10 @@
     max-width: 380px;
     float: right;
   }
+  .navbar-toggler {
+    margin-top: 20px;
+    border: none;
+  }
 }
 @media screen and (max-width: 1099px) {
   .icon {
@@ -158,6 +155,11 @@
   }
   .menu ul {
     display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-nav li {
+    border: none;
   }
 }
 
@@ -200,15 +202,11 @@
   .logo img {
     max-width: 106px;
   }
-}
-@media screen and (max-width: 575px) {
-  .icon {
-    display: none;
-    float: right;
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 13px;
   }
-  .icon-2 {
-    display: inline-block;
-    float: right;
-    padding-top: 27px;
+  .navbar-toggler {
+    border: none;
   }
 }

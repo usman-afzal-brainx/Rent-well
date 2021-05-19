@@ -2,22 +2,23 @@
   list-style-type: none;
 }
 
-.menu li {
+.navbar-nav li {
   display: inline;
   margin-right: 23px;
   padding-right: 24px;
-  border-right: 1px solid #006b6e57;
+  border-right: 1px solid #ffffff;
 }
-.menu li a {
+.navbar-nav li a {
   text-decoration: none;
   font: normal normal normal 15px/23px Poppins;
-  color: #ffffff;
+  color: #ffffff !important;
 }
-.menu li:last-child {
+.navbar-nav li:last-child {
   border: none;
 }
-.menu {
+.navbar-nav {
   padding-top: 38px;
+  text-align: center;
 }
 
 .content-active {
@@ -92,11 +93,15 @@
   width: 100%;
   height: auto;
   max-width: 296px;
+  /* width: 281px;
+  height: 233px; */
 }
 .image-active img {
   width: 100%;
   height: auto;
   max-width: 296px;
+  /* width: 281px;
+  height: 233px; */
 }
 
 .image,
@@ -151,6 +156,10 @@
     max-width: 380px;
     float: right;
   }
+  .navbar-toggler {
+    margin-top: 20px;
+    border: none;
+  }
 }
 @media screen and (max-width: 1099px) {
   .icon {
@@ -164,7 +173,11 @@
     padding: 8px 18px;
   }
 }
-
+@media screen and (max-width: 991px) {
+  .navbar-nav li {
+    border: none;
+  }
+}
 @media screen and (max-width: 600px) {
   .key-heading {
     font: normal normal bold 34px/41px Poppins;
@@ -172,7 +185,6 @@
   }
   .key-details {
     font: normal normal 300 15px/23px Poppins;
-    color: #575b5c;
     max-width: 286px;
   }
   .key-picture > img {
@@ -190,7 +202,7 @@
   }
   .details {
     font: normal normal 300 15px/23px Poppins;
-    color: #575b5c;
+
     max-width: 319px;
     margin: auto;
   }
@@ -204,15 +216,11 @@
   .button button {
     padding: 6px 12px;
   }
-}
-@media screen and (max-width: 575px) {
-  .icon {
-    display: none;
-    float: right;
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 13px;
   }
-  .icon-2 {
-    display: inline-block;
-    float: right;
-    padding-top: 27px;
+  .navbar-toggler {
+    border: none;
   }
 }
