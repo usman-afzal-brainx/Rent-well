@@ -114,17 +114,22 @@
   color: #006b6e;
   font-size: 21px;
   margin: auto;
-  max-width: 178px;
 }
 .button button {
   border-radius: 35px;
-  padding: 12px 24px;
+  padding: 12px 0;
   color: #006b6e;
   text-align: center;
   background: #c3ecff 0% 0% no-repeat padding-box;
   box-shadow: 5px 5px 6px #00000029;
   border: 1px solid #006b6e;
+  margin-left: 16px;
+  width: 265px;
 }
+.button {
+  display: inline-block;
+}
+
 @media screen and (max-width: 1190px) {
   .key-heading {
     font: normal normal bold 45px Poppins;
@@ -148,6 +153,9 @@
     margin-top: 20px;
     border: none;
   }
+  .button {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 1099px) {
   .icon {
@@ -161,6 +169,9 @@
 @media screen and (max-width: 991px) {
   .navbar-nav li {
     border: none;
+  }
+  .button {
+    margin-bottom: 20px;
   }
 }
 
@@ -207,5 +218,8 @@
   }
   .navbar-toggler {
     border: none;
+  }
+  .button {
+    margin-bottom: 20px;
   }
 }
