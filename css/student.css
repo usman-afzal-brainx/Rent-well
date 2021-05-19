@@ -21,6 +21,7 @@
 }
 
 .content-active {
+  text-shadow: 1px 1px 2px #00000029;
   border-bottom: 1px solid #006b6e;
 }
 
@@ -93,11 +94,11 @@
   text-align: center;
   padding-bottom: 262px;
 }
-.container-fluid {
+.data {
   background: url("../assets/background-student.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .image-caption {
   text-align: center;
@@ -164,7 +165,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .container-fluid {
+  .data {
     background-image: url(../assets/background-student-mobile.png);
   }
   .key-heading {
