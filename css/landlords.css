@@ -29,7 +29,7 @@
 }
 
 .key-heading {
-  font: normal normal bold 71px/86px Poppins;
+  font: normal normal bold 71px/86px sans-serif;
   color: #ffffff;
 }
 
@@ -38,7 +38,7 @@
   max-width: 460px;
 }
 .key-details p {
-  font: normal normal 300 20px/30px Poppins;
+  font: normal normal 300 20px/30px sans-serif;
 }
 .key-description {
   padding-top: 64px;
@@ -62,13 +62,13 @@
   padding-top: 10px;
 }
 .heading {
-  font: normal normal bold 45px/68px Poppins;
+  font: normal normal bold 45px/68px sans-serif;
   color: #006b6e;
   max-width: 572px;
   margin: auto;
 }
 .details {
-  font: normal normal 300 20px/30px Poppins;
+  font: normal normal 300 20px/30px sans-serif;
   color: #575b5c;
   max-width: 931px;
   margin: auto;
@@ -123,13 +123,13 @@
 .image-caption {
   font-size: 21px;
   margin: auto;
-  font: normal normal normal 21px/31px Poppins;
+  font: normal normal normal 21px/31px sans-serif;
   color: #ffffff;
   max-width: 190px;
   margin-top: -62px;
 }
 .image-caption-active {
-  font: normal normal normal 21px/31px Poppins;
+  font: normal normal normal 21px/31px sans-serif;
   color: #ffffff;
   font-size: 21px;
   margin: auto;
@@ -138,7 +138,7 @@
 }
 @media screen and (max-width: 1190px) {
   .key-heading {
-    font: normal normal bold 45px Poppins;
+    font: normal normal bold 45px sans-serif;
     max-width: 265px;
   }
   .heading {
@@ -179,11 +179,11 @@
 }
 @media screen and (max-width: 600px) {
   .key-heading {
-    font: normal normal bold 34px/41px Poppins;
+    font: normal normal bold 34px/41px sans-serif;
     max-width: 265px;
   }
   .key-details {
-    font: normal normal 300 15px/23px Poppins;
+    font: normal normal 300 15px/23px sans-serif;
     max-width: 286px;
   }
   .key-picture > img {
@@ -193,14 +193,14 @@
     padding-top: 23px;
   }
   .heading {
-    font: normal normal bold 25px/38px Poppins;
+    font: normal normal bold 25px/38px sans-serif;
     color: #006b6e;
     max-width: 318px;
     margin: auto;
     text-align: center;
   }
   .details {
-    font: normal normal 300 15px/23px Poppins;
+    font: normal normal 300 15px/23px sans-serif;
 
     max-width: 319px;
     margin: auto;

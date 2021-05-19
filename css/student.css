@@ -31,7 +31,7 @@
 }
 
 .key-heading {
-  font: normal normal bold 71px/86px Poppins;
+  font: normal normal bold 65px/86px sans-serif;
   color: #00b4cb;
 }
 
@@ -39,7 +39,7 @@
   color: #575b5c;
 }
 .key-details p {
-  font: normal normal 300 20px/30px Poppins;
+  font: normal normal 300 20px/30px sans-serif;
 }
 .key-description {
   max-width: 540px;
@@ -64,13 +64,13 @@
   padding-top: 10px;
 }
 .heading {
-  font: normal normal bold 45px/68px Poppins;
+  font: normal normal bold 45px/68px sans-serif;
   color: #006b6e;
   max-width: 572px;
   margin: auto;
 }
 .details {
-  font: normal normal 300 20px/30px Poppins;
+  font: normal normal 300 20px/30px sans-serif;
   color: #575b5c;
   max-width: 693px;
   margin: auto;
@@ -104,7 +104,7 @@
   text-align: center;
   font-size: 21px;
   margin: auto;
-  font: normal normal 300 20px/30px Poppins;
+  font: normal normal 300 20px/30px sans-serif;
   padding-top: 18px;
   max-width: 136px;
 }
@@ -127,7 +127,7 @@
 }
 @media screen and (max-width: 1190px) {
   .key-heading {
-    font: normal normal bold 45px Poppins;
+    font: normal normal bold 45px sans-serif;
     max-width: 265px;
   }
   .heading {
@@ -169,11 +169,11 @@
     background-image: url(../assets/background-student-mobile.png);
   }
   .key-heading {
-    font: normal normal bold 34px/41px Poppins;
+    font: normal normal bold 34px/41px sans-serif;
     max-width: 265px;
   }
   .key-details {
-    font: normal normal 300 15px/23px Poppins;
+    font: normal normal 300 15px/23px sans-serif;
     color: #575b5c;
     max-width: 286px;
   }
@@ -184,14 +184,14 @@
     padding-top: 23px;
   }
   .heading {
-    font: normal normal bold 25px/38px Poppins;
+    font: normal normal bold 25px/38px sans-serif;
     color: #006b6e;
     max-width: 318px;
     margin: auto;
     text-align: center;
   }
   .details {
-    font: normal normal 300 15px/23px Poppins;
+    font: normal normal 300 15px/23px sans-serif;
     color: #575b5c;
     max-width: 319px;
     margin: auto;
