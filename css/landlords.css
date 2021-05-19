@@ -10,7 +10,6 @@
 }
 .navbar-nav li a {
   text-decoration: none;
-  font: normal normal normal 15px/23px Poppins;
   color: #ffffff !important;
 }
 .navbar-nav li:last-child {
@@ -119,7 +118,7 @@
   background: url("../assets/green-background.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .image-caption {
   font-size: 21px;
